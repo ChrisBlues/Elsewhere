@@ -68,3 +68,31 @@ function closeModal(id) {
   document.getElementById('modal-' + id).style.display = 'none';
 }
 
+// Nouvelles modales
+function openModal(id) {
+  document.getElementById(id).style.display = 'block';
+}
+
+function closeModal(id) {
+  document.getElementById(id).style.display = 'none';
+}
+
+// Boutons d'ouverture
+document.getElementById('openServices').onclick = () => openModal('modalServices');
+document.getElementById('openGallery').onclick = () => openModal('modalGallery');
+
+// Boutons de fermeture
+document.querySelectorAll('.close').forEach(btn => {
+  btn.onclick = () => closeModal(btn.dataset.close);
+});
+
+// Fermeture en cliquant hors de la modale
+window.onclick = function(event) {
+  ['modalServices', 'modalGallery'].forEach(id => {
+    const modal = document.getElementById(id);
+    if (event.target === modal) modal.style.display = 'none';
+  });
+};
+
+console.log("Script chargé !");
+
