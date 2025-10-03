@@ -471,7 +471,8 @@
                         elegance. You travel, we harmonize — letting destinations unfold like verses, one moment at a
                         time.</p>
                     <p class="traduction">*Nous écoutons, nous guidons, nous composons. Elsewhere façonne chaque voyage
-                        avec soin — mêlant confort, émerveillement et rythme discret. Du premier clic au dernier pas, chaque expérience est
+                        avec soin — mêlant confort, émerveillement et rythme discret. Du premier clic au dernier pas,
+                        chaque expérience est
                         pensée avec empathie et élégance. Vous voyagez, nous harmonisons — laissant les destinations se
                         déployer comme des vers, un moment à la fois.</p>
                     <button id="about-btn">Read More...</button>
@@ -505,7 +506,7 @@
 
     <!-- Footer End -->
 
-        <!-- ============================================= Footer de remerciements Start =============================================-->
+    <!-- ============================================= Footer de remerciements Start =============================================-->
     <!-- Footer de remerciements à SA Coding et Copilote pour ses commentaires en anglais -->
     <div id="thank-you-footer">
         <span class="plume">🪶</span>
@@ -516,12 +517,38 @@
 
     <!-- ============================================= Modale Bootstrap Start =============================================-->
     <!-- Modale Bootstrap --> <!-- modal-xl en 2e ligne pour une largeur maximale -->
-    <div class="modal fade" id="imagemodal" tabindex="-1" aria-hidden="true">
+    <!-- <div class="modal fade" id="imagemodal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content bg-transparent border-0">
                 <div class="modal-body text-center position-relative">
                     <img src="" class="modal-image img-fluid" alt="Elsewhere photo" />
                 </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Bouton pour ouvrir la modale Services -->
+    <button id="openServices">Nos Services</button>
+
+    <!-- Modale Services -->
+    <div id="modalServices" class="modal">
+        <div class="modal-content">
+            <span class="close" data-close="modalServices">&times;</span>
+            <h2>Nos Services</h2>
+            <p>Poésie, design, et accompagnement sur mesure…</p>
+        </div>
+    </div>
+
+    <!-- Bouton pour ouvrir la modale Gallery -->
+    <button id="openGallery">Galerie</button>
+
+    <!-- Modale Gallery -->
+    <div id="modalGallery" class="modal">
+        <div class="modal-content">
+            <span class="close" data-close="modalGallery">&times;</span>
+            <h2>Galerie</h2>
+            <div class="gallery-grid">
+                <!-- Images ou éléments visuels -->
             </div>
         </div>
     </div>
