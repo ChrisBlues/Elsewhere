@@ -1,0 +1,2 @@
+A minimalist travel agency landing page, inspired by wanderlust and built with clean HTML, CSS, and a whisper of JavaScript. Designed to evoke motion, clarity, and the quiet thrill of departure.
+Une page d'accueil minimaliste pour une agence de voyages, inspirée par l'envie de voyager, conçue avec du HTML et du CSS épurés, et une touche de JavaScript. Conçue pour évoquer le mouvement, la clarté et l'émotion du départ.
