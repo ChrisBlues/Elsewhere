@@ -58,7 +58,6 @@ p{
     color: white;
     border: none;
 }
-
 /* Navbar End */
 
 /* Home Section Start CSS */
@@ -101,6 +100,7 @@ p{
 }
 
 .home .content p {
+    text-align: center;
     color: white;
     font-size: 25px;
     font-weight: 600;
@@ -112,7 +112,6 @@ p{
 .home .content span{
     color: #ffa500;
 }
-
 
 .home .content a {
     padding: 10px;
@@ -218,9 +217,7 @@ p{
         padding: 20px;
     }
 }
-
 /* Section Book End */
-
 
 /* Section Packages Start */
 .main-txt h1 {
@@ -326,9 +323,21 @@ p{
     transition: all 0.4s ease;
 }
 
-.card .caption:hover {
+.card:hover .caption {
   opacity: 1;
 }
+
+.fioriture-icon {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
 /* Section Services End */
 
 /* Section Gallery Start */
@@ -383,7 +392,6 @@ p{
 }
 /* Section Gallery End */
 
-/*===============================================================================*/
 /* About Start */
 .about {
     padding: 50px;
@@ -455,6 +463,10 @@ p{
 
 #footer h1 span {
     color: #ffa500;
+}
+
+#footer p{
+    text-align: center;
 }
 
 .social-links i {
